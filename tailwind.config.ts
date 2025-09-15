@@ -47,16 +47,33 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        sidebar: {
-          DEFAULT: "hsl(var(--sidebar-background))",
-          foreground: "hsl(var(--sidebar-foreground))",
-          primary: "hsl(var(--sidebar-primary))",
-          "primary-foreground": "hsl(var(--sidebar-primary-foreground))",
-          accent: "hsl(var(--sidebar-accent))",
-          "accent-foreground": "hsl(var(--sidebar-accent-foreground))",
-          border: "hsl(var(--sidebar-border))",
-          ring: "hsl(var(--sidebar-ring))",
+        neon: {
+          purple: "hsl(var(--neon-purple))",
+          blue: "hsl(var(--neon-blue))",
+          pink: "hsl(var(--neon-pink))",
+          green: "hsl(var(--neon-green))",
+          cyan: "hsl(var(--neon-cyan))",
         },
+        glow: {
+          purple: "hsl(var(--glow-purple))",
+          blue: "hsl(var(--glow-blue))",
+          pink: "hsl(var(--glow-pink))",
+          green: "hsl(var(--glow-green))",
+        },
+      },
+      fontFamily: {
+        gaming: ['Orbitron', 'monospace'],
+        rajdhani: ['Rajdhani', 'sans-serif'],
+      },
+      backgroundImage: {
+        'gradient-neon': 'var(--gradient-neon)',
+        'gradient-gaming': 'var(--gradient-gaming)',
+        'gradient-hero': 'var(--gradient-hero)',
+      },
+      boxShadow: {
+        'neon': 'var(--shadow-neon)',
+        'glow': 'var(--shadow-glow)',
+        'card-glow': 'var(--shadow-card)',
       },
       borderRadius: {
         lg: "var(--radius)",
